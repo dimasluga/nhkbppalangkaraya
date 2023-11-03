@@ -236,7 +236,7 @@
 }
 .menu .row .bph img {
     border-radius: 50%;
-    width: 80%;
+    width: 70%;
 
 }
 .menu .row .bph .ketua-image-title {
@@ -249,6 +249,14 @@
 
 .contact h2{
     margin-bottom: 1rem;
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-weight: 800;
+    line-height: 1.6;
+}
+.contact h2 span {
+    color: var(--primary);
 }
 .contact p {
     text-align: center;
@@ -417,6 +425,6 @@ font-size: rem;
   @media (max-width :450px){
     html {
         font-size: 30%;
+
     }
-    
   }
